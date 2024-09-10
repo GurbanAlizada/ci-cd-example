@@ -48,7 +48,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'corretto'
-          cache: 'gradle'
+          cache: 'maven'
 
       - name: Cache
         uses: actions/cache@v3
